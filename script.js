@@ -68,7 +68,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
       embedData: {
         title: '-=-=-=-=-= Compiler Pro =-=-=-=-=-',
         pill: 'hsl(202, 35%, 68%)',
-        thumb: 'https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png',
+        thumb: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png',
         fields: [{
           name: 'Pyhton Code Compiler',
           value: 'Thanks For Using Our Code Compiler. Here Is Your Code Below!'
