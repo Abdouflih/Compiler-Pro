@@ -54,7 +54,51 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
         }]
       }
     }]
+  },,{
+  name: 'languages',
+  messages: [{
+    type: 'input',
+    text: '-help languages',
+    user: users.phineas
   }, {
+    type: 'message',
+    delay: 350,
+    user: users.paragon,
+    embedData: {
+      title: '-=-=-=-=-= Languages Help =-=-=-=-=-',
+      pill: 'hsl(202, 35%, 68%)',
+      thumb: null,
+      fields: [{
+        name: '-> Languages Availble:',
+        value: ''
+      }, {
+        name: '- Python',
+        value: 'Python => python'
+      }, {
+        name: '- Javascript',
+        value: 'Javascript => javascript'
+      }, {
+        name: '- Swift',
+        value: 'Swift => swift'
+      },{
+        name: '- C++',
+        value: 'C++ => cpp'
+      },{
+        name: '- C#',
+        value: 'C++ => csharp'
+      }, {
+        name: '- Ruby',
+        value: 'Ruby => ruby'
+      },{
+        name: '- C',
+        value: 'C => c'
+      }, {
+        name: '-> Info',
+        value: 'These Minuscule Languages Are The Language Inputs Used In Compile Command, For An Example. If u want to use C++ use -compile cpp <code>'
+      }]
+    }
+  }]
+},{
     name: 'examples',
     messages: [{
       type: 'input',
@@ -68,7 +112,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
       embedData: {
         title: '-=-=-=-=-= Compiler Pro =-=-=-=-=-',
         pill: 'hsl(202, 35%, 68%)',
-        thumb: 'https://i.ibb.co/HdJX1B4/5848152fcef1014c0b5e4967.png',
+        thumb: 'https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png',
         fields: [{
           name: 'Pyhton Code Compiler',
           value: 'Thanks For Using Our Code Compiler. Here Is Your Code Below!'
